@@ -1,0 +1,35 @@
+{
+  "id": "building-drone",
+  "kind": "native",
+  "version": "0.2.0",
+  "backlog": "I19",
+  "display_name": "Building Drone",
+  "gameplay": true,
+  "feature_dependencies": [
+    "shop-framework",
+    "equipment-framework",
+    "hints-framework"
+  ],
+  "play_help": [
+    "Buy the $2000 drone in Modded Shop (Ctrl+Shift+F2) after Gravity Boots; equip its controller.",
+    "Alt+D deploys/returns; while deployed select the normal hammer for building.",
+    "Native purchase/equipment/hints integration implemented; gameplay checks deferred."
+  ],
+  "requires_apis": [
+    {
+      "api": "shop-framework.shop",
+      "abi": 1,
+      "min_size": 56
+    },
+    {
+      "api": "equipment-framework.equipment",
+      "abi": 1,
+      "min_size": 32
+    },
+    {
+      "api": "hints-framework.hints",
+      "abi": 1,
+      "min_size": 24
+    }
+  ]
+}
