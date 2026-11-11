@@ -1,5 +1,7 @@
 # Building Drone
 
+<img src="media/icon.png" alt="Building Drone icon" width="128" height="128">
+
 Buy the $2000 drone in Modded Shop after Gravity Boots; equip its controller.
 
 ## Install
