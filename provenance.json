@@ -1,115 +1,181 @@
 {
   "schema": "mod-source-hashes/v1",
+  "source_sync": {
+    "workshop_revision": "ca32bbf79ce0840d5166a232bdb3a9fdcd761254",
+    "source_version": "0.2.0",
+    "payload_version": "0.2.0",
+    "compiled": false,
+    "gameplay_requalified": false,
+    "production_closure_complete": true,
+    "deferred_test_fixture_gaps": []
+  },
   "source_files": {
     "mods/building-drone/api.h": {
+      "source_sha256": "1d6fd692cc8ae7e269f58b9d04cb664e7c2f4aefcc9c11d946967aa5f7998825",
       "export_sha256": "1d6fd692cc8ae7e269f58b9d04cb664e7c2f4aefcc9c11d946967aa5f7998825"
     },
+    "mods/building-drone/camera_capture.h": {
+      "source_sha256": "01768167305df9a3036d94d78a8bb35de5209d08c95f2fc0f8571918822e7194",
+      "export_sha256": "01768167305df9a3036d94d78a8bb35de5209d08c95f2fc0f8571918822e7194"
+    },
     "mods/building-drone/camera_restore.h": {
+      "source_sha256": "b59b21461b526884f7d034c23aef51bc21803fa25ccc24e68020379eb165af01",
       "export_sha256": "b59b21461b526884f7d034c23aef51bc21803fa25ccc24e68020379eb165af01"
     },
     "mods/building-drone/common.h": {
+      "source_sha256": "4aab1c2f9f63869df3c696a9e80842a86cfbf69353a94dd79b387fcd02e99794",
       "export_sha256": "4aab1c2f9f63869df3c696a9e80842a86cfbf69353a94dd79b387fcd02e99794"
     },
+    "mods/building-drone/flight_lifetime.h": {
+      "source_sha256": "2ec24b7ae3060c5c86e95501b998bb4e30db7dc593089a701d18025331e25bbb",
+      "export_sha256": "2ec24b7ae3060c5c86e95501b998bb4e30db7dc593089a701d18025331e25bbb"
+    },
     "mods/building-drone/hud.h": {
+      "source_sha256": "3f5bdeb1f62fd2428c45c278d894660250ea1e1500a66bdf4a0bbea13fecf97b",
       "export_sha256": "3f5bdeb1f62fd2428c45c278d894660250ea1e1500a66bdf4a0bbea13fecf97b"
     },
     "mods/building-drone/mod.c": {
-      "export_sha256": "e6eebe97e3c430224083cf9c2cf1c2c3e7169711c538042f76d9921ebe09dbc8"
+      "source_sha256": "e37e5360a441d4ef81a6db31b762366c9795aefc259d9ad0e21eafaf5ff7a4a8",
+      "export_sha256": "e37e5360a441d4ef81a6db31b762366c9795aefc259d9ad0e21eafaf5ff7a4a8"
     },
     "mods/building-drone/mod.json": {
+      "source_sha256": "018754dd3f486ab8b48bd6e665b39f44dd4711886a96a6876824f07dc5fc629c",
       "export_sha256": "fbe9a2fffee2c44d5bc9e75de436b6735243ea8cb07ca22af1fe4b755cc7e9eb"
     },
     "mods/building-drone/settings.ini": {
+      "source_sha256": "99ee44bab07120025f4b48bbdc16b21887a1c71713db95405e542f329a57e531",
       "export_sha256": "99ee44bab07120025f4b48bbdc16b21887a1c71713db95405e542f329a57e531"
     },
     "mods/building-drone/shop_signal.h": {
+      "source_sha256": "125c88f6455fc488f1037e34c04354207c4b6aa8cd7bbab5a2a730cc798997e0",
       "export_sha256": "125c88f6455fc488f1037e34c04354207c4b6aa8cd7bbab5a2a730cc798997e0"
     },
     "mods/building-drone/storage.h": {
+      "source_sha256": "2750d8c780a85bbef1c40beb6f6d076d40e0e8b1a4fbc4ed4e060ba465700d63",
       "export_sha256": "2750d8c780a85bbef1c40beb6f6d076d40e0e8b1a4fbc4ed4e060ba465700d63"
     },
     "mods/building-drone/support.h": {
+      "source_sha256": "39eae9106d83acc37a37c010980709166d02dae6bf5eca21b6a8a88847f4c026",
       "export_sha256": "39eae9106d83acc37a37c010980709166d02dae6bf5eca21b6a8a88847f4c026"
     },
     "mods/equipment-framework/sdk/client.h": {
-      "export_sha256": "a10bc1da5ba3b573edb71db3ea391de6c458df33519394f981488ccf2af344f1"
+      "source_sha256": "49e2083501a2674f6ddd3900b4ba6738d3360c4d12cde9eb7fee7a3f601fc4d3",
+      "export_sha256": "49e2083501a2674f6ddd3900b4ba6738d3360c4d12cde9eb7fee7a3f601fc4d3"
     },
     "mods/equipment-framework/sdk/equipment.h": {
+      "source_sha256": "e59e6bfcc8420e1a1b353d67e630943ad999424bfe5433ea0e4e4661c8fe4151",
       "export_sha256": "e59e6bfcc8420e1a1b353d67e630943ad999424bfe5433ea0e4e4661c8fe4151"
     },
+    "mods/equipment-framework/sdk/menu_cleanup.h": {
+      "source_sha256": "8e4c43f982c9b6d018e5263aa7bd6a421d22a67a110576eaf8fd11f9c371808f",
+      "export_sha256": "8e4c43f982c9b6d018e5263aa7bd6a421d22a67a110576eaf8fd11f9c371808f"
+    },
     "mods/hints-framework/sdk/client.h": {
-      "export_sha256": "4e62b61016a5e2641c62fca9a33a60cd2cddeb8ca71485454c3655bc49c56edc"
+      "source_sha256": "508337fbe140b432546e6a19e2cb1e2d50e6cd328dccb4ad43d26a02036f5f17",
+      "export_sha256": "508337fbe140b432546e6a19e2cb1e2d50e6cd328dccb4ad43d26a02036f5f17"
     },
     "mods/hints-framework/sdk/hints.h": {
+      "source_sha256": "9a80fd44546c6da91a1f0a7bb60f90489074aff634a3d80a6c36f9f9431e3862",
       "export_sha256": "9a80fd44546c6da91a1f0a7bb60f90489074aff634a3d80a6c36f9f9431e3862"
     },
+    "mods/hints-framework/sdk/presentation.h": {
+      "source_sha256": "e92058d60357442a2f21eea6b11e169dda77aaf2cd3f03bb083322db0d0f60bd",
+      "export_sha256": "e92058d60357442a2f21eea6b11e169dda77aaf2cd3f03bb083322db0d0f60bd"
+    },
     "mods/shop-framework/client.h": {
+      "source_sha256": "8de5a1f8ce52efb24c8e8fafa27d1bc948346c12d172fe7c750cc0d42c81b736",
       "export_sha256": "8de5a1f8ce52efb24c8e8fafa27d1bc948346c12d172fe7c750cc0d42c81b736"
     },
     "mods/shop-framework/sdk.h": {
+      "source_sha256": "cb43ee8e2cce48e9d82fc1fb432395f506dbd11cb2b3f226ce53d0f2fafca7fb",
       "export_sha256": "cb43ee8e2cce48e9d82fc1fb432395f506dbd11cb2b3f226ce53d0f2fafca7fb"
     },
     "runtime/native/camera.h": {
+      "source_sha256": "fb24696012f1e6bd8955cc2ce04feae422dfc82f57bd95c222099bf52185fa47",
       "export_sha256": "fb24696012f1e6bd8955cc2ce04feae422dfc82f57bd95c222099bf52185fa47"
     },
     "runtime/native/camera_target.h": {
+      "source_sha256": "73fb35e48222aa9a3292564125b00589e27131d0af339a39b95a61bb4bf87bdb",
       "export_sha256": "73fb35e48222aa9a3292564125b00589e27131d0af339a39b95a61bb4bf87bdb"
     },
     "runtime/native/gameplay.h": {
-      "export_sha256": "7676362469a7972f54f9c7304d41d32396b4f81cc9a9f9935983c54b90cb061d"
+      "source_sha256": "07418f6e84e7c9393e804d49e680f6537ab99ae6a164dc046cdceaedc7bc5f13",
+      "export_sha256": "07418f6e84e7c9393e804d49e680f6537ab99ae6a164dc046cdceaedc7bc5f13"
     },
     "runtime/native/hook_context.h": {
+      "source_sha256": "28f6c6502f3b4d6e8ae02c06e60b6d3b7f1b8674d0a5f20ac42664ea3133d016",
       "export_sha256": "28f6c6502f3b4d6e8ae02c06e60b6d3b7f1b8674d0a5f20ac42664ea3133d016"
     },
     "runtime/native/hook_engine.h": {
+      "source_sha256": "2cea82d754c1792bc3eddfba10261c7de7eb0a33316cc5d1aa28a99ee78882df",
       "export_sha256": "2cea82d754c1792bc3eddfba10261c7de7eb0a33316cc5d1aa28a99ee78882df"
     },
     "runtime/native/input.h": {
+      "source_sha256": "75e2f0cf8b8df54256a647d3f6b42d90b6ae2fcc48268ba73b974fa7cbc6c6bd",
       "export_sha256": "75e2f0cf8b8df54256a647d3f6b42d90b6ae2fcc48268ba73b974fa7cbc6c6bd"
     },
+    "runtime/native/local_actor.h": {
+      "source_sha256": "d16cbfeef20df121d4bffb53b6a0f7da91ee664f070c4a2af0e0da70145b40e5",
+      "export_sha256": "d16cbfeef20df121d4bffb53b6a0f7da91ee664f070c4a2af0e0da70145b40e5"
+    },
     "runtime/native/services.h": {
+      "source_sha256": "1178e09c77f30f53bbccbfbacf8771e5faad1cf79753703d90dfd0a1e0fbadeb",
       "export_sha256": "1178e09c77f30f53bbccbfbacf8771e5faad1cf79753703d90dfd0a1e0fbadeb"
     },
     "runtime/sdk/camera.h": {
-      "export_sha256": "2a889ad15396b0aaafae640447f9d173fee7f42b966b9177cbbabc3b742e82b3"
+      "source_sha256": "4e658254786040fb7faf153b0abe81fdf7990bb5a3d1a760bbfeceef020a3f57",
+      "export_sha256": "4e658254786040fb7faf153b0abe81fdf7990bb5a3d1a760bbfeceef020a3f57"
     },
     "runtime/sdk/camera_host.h": {
+      "source_sha256": "6d4886166c7ea02bc71de69f99a043a8a55b26d88bf06d02b9fcd335d519dda5",
       "export_sha256": "6d4886166c7ea02bc71de69f99a043a8a55b26d88bf06d02b9fcd335d519dda5"
     },
     "runtime/sdk/camera_registry.h": {
+      "source_sha256": "0428ed4a1bd5029115166c39629a46bbb6fd796244d50a7600c14ec14cce30ce",
       "export_sha256": "0428ed4a1bd5029115166c39629a46bbb6fd796244d50a7600c14ec14cce30ce"
     },
     "runtime/sdk/context.h": {
+      "source_sha256": "6c84145cc761550c4943aa10c52242a538e92243f79a1b20c65b6a4ef9e82605",
       "export_sha256": "6c84145cc761550c4943aa10c52242a538e92243f79a1b20c65b6a4ef9e82605"
     },
     "runtime/sdk/hooks.h": {
+      "source_sha256": "7c006f1254dd6a130f56dac499ba8196fb84ee4883443ee4f12d601534df56ec",
       "export_sha256": "7c006f1254dd6a130f56dac499ba8196fb84ee4883443ee4f12d601534df56ec"
     },
     "runtime/sdk/input.h": {
+      "source_sha256": "33739269793e88776c6f611a05e19ade01bd8326a115d38a0eec71ff64344ac8",
       "export_sha256": "33739269793e88776c6f611a05e19ade01bd8326a115d38a0eec71ff64344ac8"
     },
     "runtime/sdk/input_host.h": {
+      "source_sha256": "8d3f59ed3e21bdb7c7528737dd263b234c65e05b481a142eaf5f33f70604e0cb",
       "export_sha256": "8d3f59ed3e21bdb7c7528737dd263b234c65e05b481a142eaf5f33f70604e0cb"
     },
     "runtime/sdk/input_registry.h": {
+      "source_sha256": "53cf344e49ff195b3f0a4f35078d6dde84693a895eb4030734d218cc692bc7fe",
       "export_sha256": "53cf344e49ff195b3f0a4f35078d6dde84693a895eb4030734d218cc692bc7fe"
     },
     "runtime/sdk/mod_files.h": {
+      "source_sha256": "e9bc5914052f3546f92e8d4d1f65d7e0e2586928d9b57fae7bea26469044ed25",
       "export_sha256": "e9bc5914052f3546f92e8d4d1f65d7e0e2586928d9b57fae7bea26469044ed25"
     },
     "runtime/sdk/native_adapters/reflection.h": {
-      "export_sha256": "613aca15342aabf7313107e0f7eb060c5bcbdc54e06ebc7d73fe09037bd952e2"
+      "source_sha256": "9d00dad6d85a799e10d0be85861150a6049ca6fd7c84cd783934fe9d291246d0",
+      "export_sha256": "9d00dad6d85a799e10d0be85861150a6049ca6fd7c84cd783934fe9d291246d0"
     },
     "runtime/sdk/services.h": {
+      "source_sha256": "72de584c98cf0ca6367f5decd4416c78fa4eeea44b4b48401d0737a44b2c7a2b",
       "export_sha256": "72de584c98cf0ca6367f5decd4416c78fa4eeea44b4b48401d0737a44b2c7a2b"
     },
     "runtime/sdk/services_client.h": {
+      "source_sha256": "17f670371f5798457301b14c046daa99632c9685cc2c5f78921c3fe53d095479",
       "export_sha256": "17f670371f5798457301b14c046daa99632c9685cc2c5f78921c3fe53d095479"
     },
     "runtime/sdk/storage.h": {
+      "source_sha256": "c95b63653b564fb67d5385ec76abf80582daee82aa8da03178350c97cfb29a2b",
       "export_sha256": "c95b63653b564fb67d5385ec76abf80582daee82aa8da03178350c97cfb29a2b"
     },
     "runtime/sdk/vehicle_input.h": {
+      "source_sha256": "6af332b456ff9fb74e96a6e963a8cf9627bd51a8edca55f07b6e5a829b9da790",
       "export_sha256": "6af332b456ff9fb74e96a6e963a8cf9627bd51a8edca55f07b6e5a829b9da790"
     }
   }
